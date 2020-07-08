@@ -1,7 +1,8 @@
-package com.cralos.espressouitest
+package com.cralos.espressouitest.ui.movie
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.cralos.espressouitest.R
 import kotlinx.android.synthetic.main.activity_secondary.*
 
 class SecondaryActivity : AppCompatActivity() {
