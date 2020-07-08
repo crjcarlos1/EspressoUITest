@@ -1,5 +1,5 @@
 package com.cralos.espressouitest.ui.movie
-
+/*
 import android.os.Bundle
 import androidx.fragment.app.FragmentFactory
 import androidx.fragment.app.testing.launchFragmentInContainer
@@ -33,4 +33,4 @@ class MovieDetailFragmentTest {
         onView(withId(R.id.movie_description)).check(matches(withText(movie.description)))
 
     }
-}
+}*/

@@ -1,5 +1,5 @@
 package com.cralos.espressouitest.ui.movie
-
+/*
 import org.junit.runner.RunWith
 import org.junit.runners.Suite
 
@@ -10,4 +10,4 @@ import org.junit.runners.Suite
     StarActorsFragmentTest::class,
     MovieNavigationTest::class
 )
-class MovieFragmentTestSuite
+class MovieFragmentTestSuite*/

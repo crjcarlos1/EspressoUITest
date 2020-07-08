@@ -1,5 +1,5 @@
 package com.cralos.espressouitest.ui.movie
-
+/*
 import androidx.test.core.app.ActivityScenario
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.Espresso.pressBack
@@ -37,4 +37,4 @@ class MovieNavigationTest {
         //VERIFY
         onView(withId(R.id.fragment_movie_start_actors)).check(matches(isDisplayed()))
     }
-}
+}*/

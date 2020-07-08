@@ -1,5 +1,5 @@
 package com.cralos.espressouitest.factory
-
+/*
 import androidx.fragment.app.FragmentFactory
 import com.cralos.espressouitest.ui.movie.DirectorsFragment
 import com.cralos.espressouitest.ui.movie.MovieDetailFragment
@@ -40,3 +40,4 @@ class MovieFragmentFactory : FragmentFactory(){
 
 
 
+*/

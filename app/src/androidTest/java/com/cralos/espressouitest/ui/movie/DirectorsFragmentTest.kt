@@ -8,7 +8,7 @@ import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner
 import com.cralos.espressouitest.R
-import com.cralos.espressouitest.factory.MovieFragmentFactory
+//import com.cralos.espressouitest.factory.MovieFragmentFactory
 import kotlinx.android.synthetic.main.fragment_directors.*
 import org.junit.Assert.*
 import org.junit.Test
@@ -17,6 +17,7 @@ import org.junit.runner.RunWith
 @RunWith(AndroidJUnit4ClassRunner::class)
 class DirectorsFragmentTest{
 
+    /*
     @Test
     fun test_isDirectorsListVisible() {
 
@@ -34,4 +35,6 @@ class DirectorsFragmentTest{
         //VERIFY
         onView(withId(R.id.directors_text)).check(matches(withText(DirectorsFragment.stringBuilderForDirectors(directors))))
     }
+
+     */
 }

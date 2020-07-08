@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import com.cralos.espressouitest.R
 import kotlinx.android.synthetic.main.fragment_star_actors.*
 
+/*
 class StarActorsFragment : Fragment(){
 
     private val starActors: ArrayList<String> = ArrayList()
@@ -54,3 +55,4 @@ class StarActorsFragment : Fragment(){
 
 
 
+*/

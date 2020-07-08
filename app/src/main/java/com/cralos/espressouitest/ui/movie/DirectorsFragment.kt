@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.cralos.espressouitest.R
 import kotlinx.android.synthetic.main.fragment_directors.*
-
+/*
 class DirectorsFragment : Fragment(){
 
     private val directors: ArrayList<String> = ArrayList()
@@ -52,4 +52,4 @@ class DirectorsFragment : Fragment(){
 
 
 
-
+*/

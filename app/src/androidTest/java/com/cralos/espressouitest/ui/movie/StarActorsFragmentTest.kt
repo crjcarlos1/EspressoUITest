@@ -1,5 +1,5 @@
 package com.cralos.espressouitest.ui.movie
-
+/*
 import android.os.Bundle
 import androidx.fragment.app.testing.launchFragmentInContainer
 import androidx.test.espresso.Espresso.onView
@@ -45,4 +45,4 @@ class StarActorsFragmentTest {
         )
 
     }
-}
+}*/

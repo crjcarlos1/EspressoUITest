@@ -10,7 +10,7 @@ import com.cralos.espressouitest.R
 import com.cralos.espressouitest.data.Movie
 import com.cralos.espressouitest.data.source.MoviesRemoteDataSource
 import kotlinx.android.synthetic.main.fragment_movie_detail.*
-
+/*
 class MovieDetailFragment : Fragment(){
 
     private lateinit var movie: Movie
@@ -82,7 +82,7 @@ class MovieDetailFragment : Fragment(){
 
 
 
-
+*/
 
 
 
