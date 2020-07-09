@@ -6,6 +6,7 @@ import com.cralos.espressouitest.ui.DirectorsFragment
 import com.cralos.espressouitest.ui.MovieDetailFragment
 import com.cralos.espressouitest.ui.StarActorsFragment
 import com.cralos.espressouitest.data.source.MoviesDataSource
+import com.cralos.espressouitest.ui.MovieListFragment
 
 
 class MovieFragmentFactory(
@@ -18,6 +19,14 @@ class MovieFragmentFactory(
     override fun instantiate(classLoader: ClassLoader, className: String) =
 
         when (className) {
+
+            MovieListFragment::class.java.name -> {
+                if (moviesDataSource != null) {
+                    MovieListFragment(moviesDataSource)
+                } else {
+                    super.instantiate(classLoader, className)
+                }
+            }
 
             MovieDetailFragment::class.java.name -> {
                 if (requestOptions != null
